@@ -208,6 +208,8 @@ The codes are given in Appendix I.
 The entire code for the machine learning part is given in the Appendix II.
 
 \item For the visualizations of the analysis of the relationship between heart disease mortality rate and median income, Microsoft Excel was used.
+
+\item To draw the choloropeth maps for the social vulbnerability index distribution, we used a software called arcGis.
 \end{itemize}
 
 
@@ -225,6 +227,12 @@ This was done with the help of a Python script.
 Then we used MS Excel to analyze the data.
 \end{enumerate}
 \subsubsection{For the Analysis of Relationship Between Heart Disease Mortality Rate and Social Determinants for the entire United States}
+\begin{enumerate}
+\item First we downloaded the shape file of the data from the data download page of CDC.
+\item Next, we used arcGis, a proprietary mappoing application to create the county map for the entire United States.
+\item Then we used the different scores in the social vulnerability index to divide them into quartiles.
+\item The on the map, we plotted the value for each county, with the four scores represented by 4 varying degrees of colors.
+\end{enumerate}
 
 \subsubsection{For the Creation of a Machine Learning Model and Testing it on the Data}
 \begin{enumerate}
@@ -259,54 +267,118 @@ Then we plotted the average line for both median income and heart disease rate.
 We also created two choropleth maps of heart disease mortality rate and median income using MS Excel to see how they were related.
 
 \begin{figure}[H]
-\caption{Heart disease mortality rate vs median income (NYS).}
 \centering
 \includegraphics[width=\textwidth]{figures/column.PNG}
+\caption{Heart disease mortality rate vs median income (NYS).}
 \label{fig:col1}
 \end{figure}
 
-\begin{figure}[H]
-\caption{Choropleth map of heart disease mortality in NYS.}
-\centering
-\includegraphics[width=0.8\textwidth]{figures/map_heart.PNG}
-\label{fig:hdmap}
-\end{figure}
 
 \begin{figure}[H]
-\caption{Choropleth map of median income in NYS}
-\centering
-\includegraphics[width=0.8\textwidth]{figures/map_income.PNG}
-\label{fig:mimap}
+  \centering
+  \begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/map_heart.PNG}
+  \caption{Heart disease mortality rate}
+  \label{fig:hdmap}
+\end{subfigure}%
+\begin{subfigure}{.48\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/map_income.PNG}
+  \caption{Median income}
+  \label{fig:hdheatmap}
+\end{subfigure}
+\caption{Median income vs heart disease mortality rate for New York}
+\label{}
 \end{figure}
+
+
 
 \textbf{Results:}
 From Fig. \ref{fig:col1}, it is clear that in in most counties where median income is below the average, heart disease rate is above average and vice versa.
 This is corroborated by Fig. \ref{fig:hdmap} and Fig. \ref{fig:mimap} which show that in counties where median income is low, heart disease rate is high and vice versa.
 Therefore we can conclude that heart disease mortality rate is usually inversely related to median income.   
-
+\newpage
 \subsubsection{Relationship Between Heart Disease Rate and Social Vulnerability}
+\begin{center}
+\centering
+\includegraphics[width=0.8\textwidth]{figures/chloro_heart.PNG}
+\captionof{figure}{Chloropeth map of heart disease mortality rate}
+\label{fig:chloroheart}
+\end{center}
+
+\begin{center}
+\centering
+\includegraphics[width=0.8\textwidth]{figures/chloro_svi.PNG}
+\captionof{figure}{Chloropeth map of overall social vulnerability index (2012-2014)}
+\label{fig:chlorosvi}
+\end{center}
+
+It uses these 15 US census variables to determine the Social vulnerability of each county. 
+We believe that these indicators of social vulnerability also serve as strong indicators of social determinants. 
+Our hypothesis is that the higher the overall vulnerability of a community the less likely they are to live a healthy lifestyle; therefore, their likelihood of coronary-related mortalities sees an increase as a result. 
+
+\begin{center}
+\centering
+\includegraphics[width=0.8\textwidth]{figures/chloro_socioeconomic.PNG}
+\captionof{figure}{Chloropeth map of Socioeconomic Status (2012-2014)}
+\label{fig:chlorosocio}
+\end{center}
+
+\begin{center}
+\centering
+\includegraphics[width=0.8\textwidth]{figures/chloro_household_composition.PNG}
+\captionof{figure}{Chloropeth map of Household Composition and Disability (2012-2014)}
+\label{fig:chlorocomp}
+\end{center}
+
+\begin{center}
+\centering
+\includegraphics[width=0.8\textwidth]{figures/chloro_transportation.PNG}
+\captionof{figure}{Chloropeth map of Housing and Transportation (2012-2014)}
+\label{fig:chlorotrans}
+\end{center}
+
+From the countywise chloropeth maps given above, it is quite clear that there is a clear relationship between social determinants and heart disease mortality rate.
+
 
 \subsubsection{Results from Training a Machine Learning Model and Testing it on the Data}
 In order to determine which model to use, we first analyzed the correlation between various metrics in the social determinants data generating the heatmap given in Fig \ref{fig:sviheatmap}.
 
-\begin{figure}[h]
-\caption{Heat map of various social vulnerability metrics}
-\centering
-\includegraphics[width=0.5\textwidth]{figures/ml1.PNG}
-\label{fig:sviheatmap}
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/ml1.PNG}
+  \caption{Correlation between various social determinants}
+  \label{fig:sviheatmap}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/ml2.PNG}
+  \caption{Correleation between heart disease mortality and social determinants}
+  \label{fig:hdheatmap}
+\end{subfigure}
+\caption{Correlation heatmaps}
+\label{}
 \end{figure}
-From the heatmap, we concluded the following:
+
+
+From Fig.~\ref{fig:sviheatmap}, we concluded the following:
 \begin{itemize}
 \item There is high correlation between EP\_UNEMP and EP\_POV, i.e., poverty and unemployment rate highly correlates. Same goes for poverty vs no-high-school-diploma.
 \item High correlation between minority population (EP\_MINRTY) and limited English (EP\_LIMENG), minority population and no vehicle in household(EP\_NOVEH), minority population and single parent household (EP\_SNGPNT)
 \item High correlation between single parent household and poverty, which is interesting, as this is generally reversed in developing nations.
 \end{itemize}
-\begin{figure}[h]
-\caption{Confusion matrix for the SVM classifier.}
-\centering
-\includegraphics[width=0.5\textwidth]{figures/ml3.PNG}
-\label{fig:svm}
-\end{figure}
+
+From Fig.~\ref{fig:hdheatmap}, we concluded the following:
+\begin{itemize}
+\item Heart-disease-death-rate highly correlates with poverty and no-high-school-diploma-household
+\item Heart-disease-death-rate inversely correlates with per-capita-income and limited-English-speaking-ability
+\end{itemize}
+
+
 We then train two kernels (an SVM kernel and a KNN kernel) on a portion of the data (test data).
 From the SVM classifier, we can get around 67\% classification accuracy, while from the KNN classifier we get around 67\% of accuracy as well.
 
@@ -323,7 +395,12 @@ The column chart with the average lines shows clearly that there is a pattern in
 The Choropleth maps that we created make it very easy to understand that there is a relationship between heart disease mortality rate and the different factors.
 Since column charts and Choropleth maps can be easily understood by people with no technical background, they make it easier to present the results of the analysis is a coherent manner to people from all backgrounds.
 On the other hand, the confusion matrix for the SVM classifier (Fig. \ref{fig:svm}), even though it would be an important source of information for an experienced data scientist, would make little sense to someone not trained in the various data analytic methods.
-
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.4\textwidth]{figures/ml3.PNG}
+\caption{Confusion matrix for the SVM classifier.}
+\label{fig:svm}
+\end{figure}
 From this exercise, we realized that highly technical visualizations should be avoided if the goal is to make a study accessible to people from a wide range of backgrounds.
 It is better to use easily understandable statistical methods like columns charts and Choropleth maps to convey data in a meaningful manner to a wide range of people.
 
