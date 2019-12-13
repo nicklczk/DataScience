@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.5)  12 DEC 2019 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.5)  12 DEC 2019 17:49
 entering extended mode
 **./DS_REPORT.tex
 (DS_REPORT.tex
@@ -892,20 +892,20 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 <figures/workflow.PNG, id=1, 375.804pt x 235.47975pt>
 File: figures/workflow.PNG Graphic file (type png)
 <use figures/workflow.PNG>
-Package pdftex.def Info: figures/workflow.PNG  used on input line 108.
+Package pdftex.def Info: figures/workflow.PNG  used on input line 109.
 (pdftex.def)             Requested size: 387.0pt x 242.50732pt.
  [1{C:/Users/pauls/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figure
 s/workflow.PNG>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 113.
+LaTeX Font Info:    Try loading font information for U+msa on input line 114.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 113.
+LaTeX Font Info:    Try loading font information for U+msb on input line 114.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 113.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 114.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
@@ -914,55 +914,55 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 <figures/data_mi.PNG, id=9, 1143.67274pt x 442.65375pt>
 File: figures/data_mi.PNG Graphic file (type png)
 <use figures/data_mi.PNG>
-Package pdftex.def Info: figures/data_mi.PNG  used on input line 141.
+Package pdftex.def Info: figures/data_mi.PNG  used on input line 142.
 (pdftex.def)             Requested size: 516.0pt x 199.71918pt.
  [2 <./figures/data_mi.PNG>]
 <figures/data_hd.PNG, id=16, 1142.46825pt x 442.65375pt>
 File: figures/data_hd.PNG Graphic file (type png)
 <use figures/data_hd.PNG>
-Package pdftex.def Info: figures/data_hd.PNG  used on input line 159.
+Package pdftex.def Info: figures/data_hd.PNG  used on input line 160.
 (pdftex.def)             Requested size: 516.0pt x 199.92856pt.
 <figures/data_svi.PNG, id=17, 1142.46825pt x 442.65375pt>
 File: figures/data_svi.PNG Graphic file (type png)
 <use figures/data_svi.PNG>
-Package pdftex.def Info: figures/data_svi.PNG  used on input line 175.
+Package pdftex.def Info: figures/data_svi.PNG  used on input line 176.
 (pdftex.def)             Requested size: 516.0pt x 199.92856pt.
  [3 <./figures/data_hd.PNG>] [4 <./figures/data_svi.PNG>] [5]
 <figures/column.PNG, id=29, 678.1335pt x 373.99725pt>
 File: figures/column.PNG Graphic file (type png)
 <use figures/column.PNG>
-Package pdftex.def Info: figures/column.PNG  used on input line 276.
+Package pdftex.def Info: figures/column.PNG  used on input line 277.
 (pdftex.def)             Requested size: 516.0pt x 284.57755pt.
 <figures/map_heart.PNG, id=30, 616.10175pt x 363.759pt>
 File: figures/map_heart.PNG Graphic file (type png)
 <use figures/map_heart.PNG>
-Package pdftex.def Info: figures/map_heart.PNG  used on input line 286.
+Package pdftex.def Info: figures/map_heart.PNG  used on input line 287.
 (pdftex.def)             Requested size: 258.0pt x 152.32814pt.
 <figures/map_income.PNG, id=31, 561.297pt x 366.168pt>
 File: figures/map_income.PNG Graphic file (type png)
 <use figures/map_income.PNG>
-Package pdftex.def Info: figures/map_income.PNG  used on input line 292.
+Package pdftex.def Info: figures/map_income.PNG  used on input line 293.
 (pdftex.def)             Requested size: 247.6778pt x 161.57816pt.
 
 
-LaTeX Warning: Reference `fig:mimap' on page 6 undefined on input line 304.
+LaTeX Warning: Reference `fig:mimap' on page 6 undefined on input line 305.
 
 [6 <./figures/column.PNG> <./figures/map_heart.PNG> <./figures/map_income.PNG>]
 <figures/chloro_heart.PNG, id=38, 963.6pt x 542.025pt>
 File: figures/chloro_heart.PNG Graphic file (type png)
 <use figures/chloro_heart.PNG>
-Package pdftex.def Info: figures/chloro_heart.PNG  used on input line 310.
+Package pdftex.def Info: figures/chloro_heart.PNG  used on input line 311.
 (pdftex.def)             Requested size: 412.80157pt x 232.19778pt.
 <figures/chloro_svi.PNG, id=39, 963.6pt x 542.025pt>
 File: figures/chloro_svi.PNG Graphic file (type png)
 <use figures/chloro_svi.PNG>
-Package pdftex.def Info: figures/chloro_svi.PNG  used on input line 317.
+Package pdftex.def Info: figures/chloro_svi.PNG  used on input line 318.
 (pdftex.def)             Requested size: 412.80157pt x 232.19778pt.
 <figures/chloro_socioeconomic.PNG, id=40, 963.6pt x 542.025pt>
 File: figures/chloro_socioeconomic.PNG Graphic file (type png)
 <use figures/chloro_socioeconomic.PNG>
 Package pdftex.def Info: figures/chloro_socioeconomic.PNG  used on input line 3
-28.
+29.
 (pdftex.def)             Requested size: 412.80157pt x 232.19778pt.
 [7 <./figures/chloro_heart.PNG (PNG copy)> <./figures/chloro_svi.PNG (PNG copy)
 >]
@@ -970,37 +970,37 @@ Package pdftex.def Info: figures/chloro_socioeconomic.PNG  used on input line 3
 File: figures/chloro_household_composition.PNG Graphic file (type png)
 <use figures/chloro_household_composition.PNG>
 Package pdftex.def Info: figures/chloro_household_composition.PNG  used on inpu
-t line 335.
+t line 336.
 (pdftex.def)             Requested size: 412.80157pt x 232.19778pt.
 <figures/chloro_transportation.PNG, id=46, 963.6pt x 542.025pt>
 File: figures/chloro_transportation.PNG Graphic file (type png)
 <use figures/chloro_transportation.PNG>
 Package pdftex.def Info: figures/chloro_transportation.PNG  used on input line 
-342.
+343.
 (pdftex.def)             Requested size: 412.80157pt x 232.19778pt.
  [8 <./figures/chloro_socioeconomic.PNG (PNG copy)> <./figures/chloro_household
 _composition.PNG (PNG copy)>]
 <figures/svi_column.PNG, id=50, 2055.68pt x 1225.57875pt>
 File: figures/svi_column.PNG Graphic file (type png)
 <use figures/svi_column.PNG>
-Package pdftex.def Info: figures/svi_column.PNG  used on input line 356.
+Package pdftex.def Info: figures/svi_column.PNG  used on input line 357.
 (pdftex.def)             Requested size: 412.80157pt x 246.10255pt.
  [9 <./figures/chloro_transportation.PNG (PNG copy)> <./figures/svi_column.PNG>
 ]
 <figures/ml1.PNG, id=55, 972.63374pt x 803.0pt>
 File: figures/ml1.PNG Graphic file (type png)
 <use figures/ml1.PNG>
-Package pdftex.def Info: figures/ml1.PNG  used on input line 376.
+Package pdftex.def Info: figures/ml1.PNG  used on input line 377.
 (pdftex.def)             Requested size: 258.0pt x 213.00229pt.
 <figures/ml2.PNG, id=56, 555.07375pt x 370.38374pt>
 File: figures/ml2.PNG Graphic file (type png)
 <use figures/ml2.PNG>
-Package pdftex.def Info: figures/ml2.PNG  used on input line 382.
+Package pdftex.def Info: figures/ml2.PNG  used on input line 383.
 (pdftex.def)             Requested size: 258.0pt x 172.15318pt.
 <figures/ml3.PNG, id=57, 466.74374pt x 465.74pt>
 File: figures/ml3.PNG Graphic file (type png)
 <use figures/ml3.PNG>
-Package pdftex.def Info: figures/ml3.PNG  used on input line 423.
+Package pdftex.def Info: figures/ml3.PNG  used on input line 424.
 (pdftex.def)             Requested size: 206.39685pt x 205.94958pt.
  [10 <./figures/ml1.PNG> <./figures/ml2.PNG>]
 [11 <./figures/ml3.PNG>] [12]
@@ -1019,7 +1019,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  18382 strings out of 492970
  321064 string characters out of 3135855
- 878638 words of memory out of 3000000
+ 878654 words of memory out of 3000000
  22038 multiletter control sequences out of 15000+200000
  637459 words of font info for 141 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1031,7 +1031,7 @@ e1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on DS_REPORT.pdf (20 pages, 2984064 bytes).
+Output written on DS_REPORT.pdf (20 pages, 2984078 bytes).
 PDF statistics:
  123 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
