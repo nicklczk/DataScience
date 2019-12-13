@@ -189,6 +189,7 @@ Since the datasets we chose had rich information about heart disease mortality r
 \begin{enumerate}
 \item \emph{How is heart disease mortality rate connected to the median income in New York State?}
 \item \emph{How is heart disease mortality rate connected to social vulnerability in the United States?}
+\item \emph{How is heart disease mortality rate connected to ethnicity?}
 \end{enumerate} 
 
 We first decided to check using basic exploratory data analysis if there was actually any relationship between heart disease mortality rate and the other factors as explained above.  
@@ -256,6 +257,10 @@ Then we used MS Excel to analyze the data.
 \item The data was pre-processed to convert heart rate disease values to categorical values.
 \item Python Scikit Learn was used to train SVM and KNN and analyze their accuracy (Details given in Appendix II).  
 \end{enumerate}
+
+\subsubsection{For the analysis of heart disease mortality rate and ethnicity}
+For this analysis, we simply cleaned the data by removing rows with missing values and used Microsoft Excel to create a chart of how heart disease rate varies with ethnicity.
+
 
 \section{Presentation/Visualization of the Results}
 \subsection{Results of the Analysis}
@@ -339,8 +344,26 @@ Our hypothesis is that the higher the overall vulnerability of a community the l
 \label{fig:chlorotrans}
 \end{center}
 
-From the countywise chloropeth maps given above, it is quite clear that there is a clear relationship between social determinants and heart disease mortality rate.
+From the Chloropeth maps we can conclude the following:
+\begin{itemize}
+\item Social vulnerability is a good indicator of Heart disease mortalities.
+\item Both these datasets are indicative of genuine problems as they are specially smoother and not affected by population size.
+\item There are some regions where there are few mortalities, but high SVI, Socioeconomic vulnerability, poor housing and transportation, and a high population which is disabled or unemployed. Certain counties in New Mexico, Arizona, Nevada, California, Oregon, and Washington score high on the SVI and all of it's subcategories but have relatively low rates of heart disease related mortalities.
+\end{itemize}
 
+\begin{center}
+\centering
+\includegraphics[width=0.8\textwidth]{figures/svi_column.PNG}
+\captionof{figure}{Social Vulnerability and Heart Disease Mortality}
+\label{fig:svi_column}
+\end{center}
+
+Some conclusions we can draw from Fig.~\ref{fig:svi_column}:
+\begin{itemize}
+\item It seems that regardless of SVI score heart disease stays pretty regular throughout the counties.
+\item The only trend is that counties with higher SVI values tend to have higher highs and slightly above average heart related mortalities.
+\item Surprisingly, it seems that the top 1\% of counties with the highest SVI score seem to have relatively lower heart disease related deaths.
+\end{itemize}
 
 \subsubsection{Results from Training a Machine Learning Model and Testing it on the Data}
 In order to determine which model to use, we first analyzed the correlation between various metrics in the social determinants data generating the heatmap given in Fig \ref{fig:sviheatmap}.
