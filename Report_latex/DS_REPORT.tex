@@ -72,12 +72,13 @@
 \author{
 \IEEEauthorblockN{
 Ashraful Islam,
-Nicholas Luczak, and
-Saswata Paul
+Nicholas Luczak, 
+Saswata Paul, and
+Yiyun Su
 }\\
 \IEEEauthorblockA{
 Rensselaer Polytechnic Institute, Troy, New York, 12180\\
-\{islama6, luczan, pauls4\}@rpi.edu
+\{islama6, luczan, pauls4, suy4\}@rpi.edu
 }
 }
 
@@ -189,7 +190,7 @@ Since the datasets we chose had rich information about heart disease mortality r
 \begin{enumerate}
 \item \emph{How is heart disease mortality rate connected to the median income in New York State?}
 \item \emph{How is heart disease mortality rate connected to social vulnerability in the United States?}
-\item \emph{How is heart disease mortality rate connected to ethnicity?}
+\item \emph{How is heart disease mortality rate connected to ethnicity in New York?}
 \end{enumerate} 
 
 We first decided to check using basic exploratory data analysis if there was actually any relationship between heart disease mortality rate and the other factors as explained above.  
@@ -258,7 +259,7 @@ Then we used MS Excel to analyze the data.
 \item Python Scikit Learn was used to train SVM and KNN and analyze their accuracy (Details given in Appendix II).  
 \end{enumerate}
 
-\subsubsection{For the analysis of heart disease mortality rate and ethnicity}
+\subsubsection{For the analysis of heart disease mortality rate and ethnicity in New York}
 For this analysis, we simply cleaned the data by removing rows with missing values and used Microsoft Excel to create a chart of how heart disease rate varies with ethnicity.
 
 
@@ -404,6 +405,17 @@ From Fig.~\ref{fig:hdheatmap}, we concluded the following:
 
 We then train two kernels (an SVM kernel and a KNN kernel) on a portion of the data (test data).
 From the SVM classifier, we can get around 67\% classification accuracy, while from the KNN classifier we get around 67\% of accuracy as well.
+
+\subsubsection{Relationship Between Ethnicity and Heart Disease Mortality Rate in New York}
+
+\begin{center}
+\centering
+\includegraphics[width=0.8\textwidth]{figures/ethnicity_hd.PNG}
+\captionof{figure}{Ethnicity and Heart Disease Mortality Rate}
+\label{fig:ethnicity_hd}
+\end{center}
+
+From the Fig.\ref{fig:ethnicity_hd}, we can see that Asian and Pacific Islanders have remarkably high chances of getting heart disease compared to other races based on New York state data.
 
 \subsection{Management of the Presentation/Visualization}
 We had created a Github repository for storing all our project related work at the beginning of the project.
