@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.5)  12 DEC 2019 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.5)  13 DEC 2019 00:47
 entering extended mode
 **./DS_REPORT.tex
 (DS_REPORT.tex
@@ -997,18 +997,24 @@ File: figures/ml2.PNG Graphic file (type png)
 <use figures/ml2.PNG>
 Package pdftex.def Info: figures/ml2.PNG  used on input line 383.
 (pdftex.def)             Requested size: 258.0pt x 172.15318pt.
-<figures/ml3.PNG, id=57, 466.74374pt x 465.74pt>
+<figures/ethnicity_hd.PNG, id=57, 365.56575pt x 234.8775pt>
+File: figures/ethnicity_hd.PNG Graphic file (type png)
+<use figures/ethnicity_hd.PNG>
+Package pdftex.def Info: figures/ethnicity_hd.PNG  used on input line 413.
+(pdftex.def)             Requested size: 412.80157pt x 265.2257pt.
+ [10 <./figures/ml1.PNG> <./figures/ml2.PNG>]
+<figures/ml3.PNG, id=63, 466.74374pt x 465.74pt>
 File: figures/ml3.PNG Graphic file (type png)
 <use figures/ml3.PNG>
-Package pdftex.def Info: figures/ml3.PNG  used on input line 424.
+Package pdftex.def Info: figures/ml3.PNG  used on input line 435.
 (pdftex.def)             Requested size: 206.39685pt x 205.94958pt.
- [10 <./figures/ml1.PNG> <./figures/ml2.PNG>]
-[11 <./figures/ml3.PNG>] [12]
+
+[11 <./figures/ethnicity_hd.PNG>] [12 <./figures/ml3.PNG>] [13]
 (C:\Users\pauls\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
-(code/data_clean.py [13] [14] [15]) (code/data_fix.py [16]) (code/ml.py
-[17] [18] [19]) [20] (DS_REPORT.aux)
+(code/data_clean.py [14] [15] [16]) (code/data_fix.py [17]) (code/ml.py
+[18] [19] [20]) [21] (DS_REPORT.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1017,10 +1023,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18382 strings out of 492970
- 321064 string characters out of 3135855
- 878654 words of memory out of 3000000
- 22038 multiletter control sequences out of 15000+200000
+ 18388 strings out of 492970
+ 321213 string characters out of 3135855
+ 878723 words of memory out of 3000000
+ 22043 multiletter control sequences out of 15000+200000
  637459 words of font info for 141 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,8n,103p,515b,1950s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1031,9 +1037,9 @@ e1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on DS_REPORT.pdf (20 pages, 2984078 bytes).
+Output written on DS_REPORT.pdf (21 pages, 3026523 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
+ 128 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
